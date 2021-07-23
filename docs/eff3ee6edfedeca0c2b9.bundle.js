@@ -7,7 +7,7 @@ var __webpack_exports__ = {};
 const addressInput = document.getElementById("_address");
 
 //API
-const httpProviderGeo = (_key, _address) => `http://api.positionstack.com/v1/forward?access_key=${_key}&query=${_address}`;
+const httpProviderGeo = (_key, _address) => `https://api.positionstack.com/v1/forward?access_key=${_key}&query=${_address}`;
 const key = "e46e9538d21fabc02428d984b22e001d";
 
 const geoAPI = async() =>{
@@ -22,7 +22,7 @@ const geoAPI = async() =>{
 }
 ;// CONCATENATED MODULE: ./src/js/http-provider-weather.js
 //API
-const httpProviderWeather = (_lat, _lon, _key) => `http://api.openweathermap.org/data/2.5/onecall?lat=${_lat}&lon=${_lon}&units=metric&appid=${_key}`;
+const httpProviderWeather = (_lat, _lon, _key) => `https://api.openweathermap.org/data/2.5/onecall?lat=${_lat}&lon=${_lon}&units=metric&appid=${_key}`;
 const http_provider_weather_key = "5e757d555cc3e81f63679d94dd05e5f6";
 
 const weatherAPI = async(_lat, _lon) => {
@@ -178,4 +178,4 @@ searchBtn.addEventListener("click", () => {
 });
 /******/ })()
 ;
-//# sourceMappingURL=9447c6470efeb2e23203.bundle.js.map
+//# sourceMappingURL=eff3ee6edfedeca0c2b9.bundle.js.map
