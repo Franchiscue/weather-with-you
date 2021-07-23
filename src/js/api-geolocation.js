@@ -2,7 +2,7 @@
 export const addressInput = document.getElementById("_address");
 
 //API
-const httpProviderGeo = (_key, _address) => `http://api.positionstack.com/v1/forward?access_key=${_key}&query=${_address}`;
+const httpProviderGeo = (_key, _address) => `https://api.positionstack.com/v1/forward?access_key=${_key}&query=${_address}`;
 const key = "Tu clave";
 
 export const geoAPI = async() =>{
