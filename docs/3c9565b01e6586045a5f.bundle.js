@@ -22,7 +22,7 @@ const geoAPI = async() =>{
 }
 ;// CONCATENATED MODULE: ./src/js/http-provider-weather.js
 //API
-const httpProviderWeather = (_lat, _lon, _key) => `https://api.openweathermap.org/data/2.5/onecall?lat=${_lat}&lon=${_lon}&units=metric&appid=${_key}`;
+const httpProviderWeather = (_lat, _lon, _key) => `https://cors-everywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/onecall?lat=${_lat}&lon=${_lon}&units=metric&appid=${_key}`;
 const http_provider_weather_key = "5e757d555cc3e81f63679d94dd05e5f6";
 
 const weatherAPI = async(_lat, _lon) => {
@@ -178,4 +178,4 @@ searchBtn.addEventListener("click", () => {
 });
 /******/ })()
 ;
-//# sourceMappingURL=eff3ee6edfedeca0c2b9.bundle.js.map
+//# sourceMappingURL=3c9565b01e6586045a5f.bundle.js.map

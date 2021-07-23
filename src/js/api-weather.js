@@ -1,5 +1,5 @@
 //API
-const httpProviderWeather = (_lat, _lon, _key) => `https://api.openweathermap.org/data/2.5/onecall?lat=${_lat}&lon=${_lon}&units=metric&appid=${_key}`;
+const httpProviderWeather = (_lat, _lon, _key) => `https://cors-everywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/onecall?lat=${_lat}&lon=${_lon}&units=metric&appid=${_key}`;
 const key = "Pon tu clave";
 
 export const weatherAPI = async(_lat, _lon) => {
